@@ -34,7 +34,7 @@
           unit="segment">2</count>
         <count
           count-type="x-subflow"
-          unit="trans-unit">0</count>
+          unit="trans-unit">2</count>
       </count-group>
       <tool
         tool-id="MadCap Lingo 11 (Lingo release)"
@@ -44,24 +44,58 @@
     </header>
     <body><trans-unit
         id="1"
-        restype="x-xml-h1"
-        phase-name="pretrans"><source>Topic Title</source><seg-source><mrk
+        restype="x-xhtml-madcap:keyword-term"
+        phase-name="pretrans"
+        translate="no"><source>Delete</source><seg-source><mrk
             mtype="seg"
-            mid="1">Topic Title</mrk></seg-source><target
+            mid="1">Delete</mrk></seg-source><target
           state="needs-translation"><mrk
             mtype="seg"
             mid="1"
             MadCap:segmentStatus="Untranslated"
-            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+            MadCap:matchPercent="0"
+            MadCap:diff="New" /></target></trans-unit><trans-unit
         id="2"
-        restype="x-xml-p"
-        phase-name="pretrans"><source>Delete this text and replace it with your own content.</source><seg-source><mrk
+        restype="x-xhtml-madcap:concept-term"
+        phase-name="pretrans"
+        translate="no"><source>replace</source><seg-source><mrk
             mtype="seg"
-            mid="1">Delete this text and replace it with your own content.</mrk></seg-source><target
+            mid="1">replace</mrk></seg-source><target
           state="needs-translation"><mrk
             mtype="seg"
             mid="1"
             MadCap:segmentStatus="Untranslated"
-            MadCap:matchPercent="0" /></target></trans-unit></body>
+            MadCap:matchPercent="0"
+            MadCap:diff="New" /></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>Topic Title 11</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Topic Title 11</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0"
+            MadCap:diff="New" /></target></trans-unit><trans-unit
+        id="4"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Delete this text and <ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:concept term="<sub
+              ctype="x-xhtml-madcap:concept-term"
+              datatype="xhtml"
+              xid="2" xmlns="urn:oasis:names:tc:xliff:document:1.2" />" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph>replace it with your own content.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Delete this text and <ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:concept term="<sub
+                ctype="x-xhtml-madcap:concept-term"
+                datatype="xhtml"
+                xid="2" xmlns="urn:oasis:names:tc:xliff:document:1.2" />" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph>replace it with your own content.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0"
+            MadCap:diff="New" /></target></trans-unit></body>
   </file>
 </xliff>
